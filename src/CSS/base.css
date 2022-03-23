@@ -1,16 +1,17 @@
 container {
   padding: 0;
   max-width: 640px;
+  background-color: #FFFFFF;
 }
 
 div {
-  background-color: #fbfafa;
+  background-color: #FFFFFF;
 }
 
 body {
   background-color: #fbfbfc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .responsive-container {
@@ -200,6 +201,21 @@ body {
     padding-bottom: 8px !important;
   }
 }
+@media only screen and (max-width: 400px){
+  .gutter {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .l-col-item {
+    padding-left: 12px !important;
+    padding-right: 4px !important;
+  }
+  
+  .r-col-item {
+   padding-left: 4px !important;
+   padding-right: 12px !important;
+  }
+}
 
 /* typography styles */
 
@@ -208,6 +224,19 @@ body {
     font-size: 12px !important;
     line-height: 16px !important;
     letter-spacing: 0.38px !important;
+  }
+  .display-medium {
+    font-size: 38px !important;
+    line-height: 44px !important;
+  }
+  .heading-large {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .body-default {
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 }
 
@@ -353,8 +382,42 @@ h1 {
 .body-micro {
   color: #373737;
   font-size: 10px;
-  font-weight: 4s00;
+  font-weight: 400;
   line-height: 16px;
+}
+
+.bg-tetons-gray-100{
+  background: #9EB3B3 !important;
+  background-color: #9EB3B3 !important;
+}
+.bg-tetons-gray-40{
+  background: #D8E0E1 !important;
+  background-color: #D8E0E1 !important;
+}
+.bg-tetons-gray-30{
+  background: #E1E7E8 !important;
+  background-color: #E1E7E8 !important;
+}
+.bg-tetons-gray-20{
+  background: #ECF0F0 !important;
+  background-color: #ECF0F0 !important;
+}
+.bg-tetons-gray-10{
+  background: #F5F7F7 !important;
+  background-color: #F5F7F7 !important;
+}
+
+.rounded-8{
+  border-radius: 8px !important;
+}
+.rounded-5{
+  border-radius: 5px !important;
+}
+.rounded-4{
+  border-radius: 4px !important;
+}
+.rounded-2{
+  border-radius: 2px !important;
 }
 
 .color-dusk {
@@ -498,6 +561,10 @@ h1 {
   .secondary {
     font-size: 16px !important;
   }
+  .full-width-mobile{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 table.button {
@@ -507,12 +574,12 @@ table.button {
 .primary {
   background-color: #ffd100;
   border: 1px solid #ffd100;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #26221e;
   width: 100%;
   min-width: 220px;
   font-family: "Nunito Sans", Arial, sans-serif;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
@@ -534,6 +601,10 @@ table.button {
 .primary.slug {
   max-width: 300px;
   height: 56px;
+}
+.primary.side {
+  max-width: 200px;
+  height: 40px;
 }
 
 .ghost {
@@ -906,7 +977,7 @@ a.vacasa-banner {
 p.app-title {
   color: #26221e;
   font-size: 20px;
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: Calluna, "Taviraj", Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   letter-spacing: -0.5px;
   line-height: 23px;
