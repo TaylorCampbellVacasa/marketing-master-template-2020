@@ -201,7 +201,7 @@ body {
     padding-bottom: 8px !important;
   }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
   .gutter {
     padding-left: 12px !important;
     padding-right: 12px !important;
@@ -226,8 +226,12 @@ body {
     letter-spacing: 0.38px !important;
   }
   .display-medium {
-    font-size: 38px !important;
-    line-height: 44px !important;
+    font-size: 32px !important;
+    line-height: 38px !important;
+  }
+  .display-small {
+    font-size: 26px !important;
+    line-height: 32px !important;
   }
   .heading-large {
     font-size: 24px !important;
@@ -599,8 +603,8 @@ table.button {
 }
 
 .primary.slug {
-  max-width: 300px;
-  height: 56px;
+  max-width: 320px;
+  height: 48px;
 }
 .primary.side {
   max-width: 200px;
@@ -660,7 +664,7 @@ table.button {
   line-height: 24px;
   color: #fbfafa;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px;
   width: 100% !important;
   border: 1px solid #007f90;
   background-color: #FFFFFF;
@@ -670,6 +674,11 @@ table.button {
 .secondary.side{
   width: 100%;
   max-width: 320px !important;
+}
+
+.secondary.slug{
+  max-width: 320px !important;
+  height: 48px !important;
 }
 
 .secondary * {
