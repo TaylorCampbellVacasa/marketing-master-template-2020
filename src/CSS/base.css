@@ -648,7 +648,7 @@ table.button {
 }
 
 .secondary {
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Nunito Sans", Arial, sans-serif;
   font-weight: 400;
   line-height: 24px;
@@ -657,8 +657,13 @@ table.button {
   border-radius: 4px;
   width: 100% !important;
   border: 1px solid #007f90;
-  background-color: #fbfafa;
+  background-color: #FFFFFF;
   display: inline-block;
+}
+
+.secondary.side{
+  width: 100%;
+  max-width: 320px !important;
 }
 
 .secondary * {
