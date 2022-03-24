@@ -9,8 +9,8 @@
 
 	<a href="https://www.vacasa.com{{{ RESERVATION_CITY_CANONICALURL }}}?utm_source=transactional&utm_medium=email&utm_campaign=tx-rebooking-1" target="_blank">
 	<container>
-	<!-- {{{{raw-helper}}}} -->	{{#if REGION_IMAGE_URL_LARGE}}
-			{{#compare REGION_IMAGE_URL_LARGE "==" "https://d33zkqzv7i9ae0.cloudfront.net/images/locations/large/0.jpg"}}<!-- {{{{/raw-helper}}}} -->
+	<!-- raw-helper -->	{{#if REGION_IMAGE_URL_LARGE}}
+			{{#compare REGION_IMAGE_URL_LARGE "==" "https://d33zkqzv7i9ae0.cloudfront.net/images/locations/large/0.jpg"}}<!-- /raw-helper -->
 			<row>
 				<column class="gutter">
 					<container style="background-color: #003349; background-size: cover; background-position: center center; background-image: linear-gradient(to bottom, rgba(0, 51, 73, 0.1), rgba(0, 51, 73, 0.73)),
@@ -18,16 +18,16 @@
 						<row style="background: transparent !important;" class="gutter-sml spacer-t-lrg spacer-b">
 							<column style="background: transparent !important;" class="txt-center spacer-t-lrg">
 								   <h2 style="color: #ffffff !important;">
-									  <strong><!-- {{{{raw-helper}}}} -->Explore homes in {{{ RESERVATION_CITY_CITY }}}&nbsp;&#x203A;<!-- {{{{/raw-helper}}}} --></strong></h2>
+									  <strong><!-- raw-helper -->Explore homes in {{{ RESERVATION_CITY_CITY }}}&nbsp;&#x203A;<!-- /raw-helper --></strong></h2>
 							</column>
 						 </row>
 					</container>
 				</column>
 			</row>
-				<!-- {{{{raw-helper}}}} -->{{else}}<!-- {{{{/raw-helper}}}} -->
+				<!-- raw-helper -->{{else}}<!-- /raw-helper -->
 			<row>
 				<column class="gutter">
-					<!-- {{{{raw-helper}}}} -->
+					<!-- raw-helper -->
 					<container style="background-color: #003349; background-size: cover; background-position: center center; background-image: linear-gradient(to bottom, rgba(0, 51, 73, 0.1), rgba(0, 51, 73, 0.73)),
 					  url('{{{ REGION_IMAGE_URL_LARGE }}}');">
 						<row style="background: transparent !important;" class="gutter-sml spacer-t spacer-b">
@@ -37,25 +37,25 @@
 							</column>
 						 </row>
 					</container>
-					<!-- {{{{/raw-helper}}}} -->
+					<!-- /raw-helper -->
 				</column>
 			</row>
-		<!-- {{{{raw-helper}}}} -->{{/compare}}<!-- {{{{/raw-helper}}}} -->
-		<!-- {{{{raw-helper}}}} -->{{else}}<!-- {{{{/raw-helper}}}} -->
+		<!-- raw-helper -->{{/compare}}<!-- /raw-helper -->
+		<!-- raw-helper -->{{else}}<!-- /raw-helper -->
 			<row>
 				<column class="gutter">
 					<container style="background-color: #003349; background-size: cover; background-position: center center; background-image: linear-gradient(to bottom, rgba(0, 51, 73, 0.1), rgba(0, 51, 73, 0.73)),
 					  url('https://vacasa-units.imgix.net/915677.jpg?w=1280&amp;fit=crop&amp;crop=focalpoint');">
 						<row style="background: transparent !important;" class="gutter-sml spacer-t spacer-b">
 							<column style="background: transparent !important;" class="txt-center spacer-t spacer-b">
-								  <!-- {{{{raw-helper}}}} --> <h2 style="color: #ffffff !important;">
-									  <strong>Explore homes in {{{ RESERVATION_CITY_CITY }}}&nbsp;&#x203A;</strong></h2><!-- {{{{/raw-helper}}}} -->
+								  <!-- raw-helper --> <h2 style="color: #ffffff !important;">
+									  <strong>Explore homes in {{{ RESERVATION_CITY_CITY }}}&nbsp;&#x203A;</strong></h2><!-- /raw-helper -->
 							</column>
 						 </row>
 					</container>
 				</column>
 			</row>
-		<!-- {{{{raw-helper}}}} -->{{/if}}<!-- {{{{/raw-helper}}}} -->
+		<!-- raw-helper -->{{/if}}<!-- /raw-helper -->
 	</container>
 	</a>
 </container>

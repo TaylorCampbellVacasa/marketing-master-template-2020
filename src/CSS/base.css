@@ -605,6 +605,12 @@ table.button {
 .primary.side {
   max-width: 200px;
   height: 40px;
+  display: block !important;
+  margin: 0 auto !important;
+}
+.primary.small {
+  max-width: 200px;
+  height: 40px;
 }
 
 .ghost {

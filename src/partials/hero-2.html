@@ -2,27 +2,35 @@
 	<row>
 		<column class="gutter pad-b pad-t">
 			<a href="https://vacasa.com?utm_source=transactional&utm_medium=email&utm_campaign=tx-rebooking-1">
-				{{> logo-22 }}
+				{{> logo-22-centered }}
 			</a>
 		</column>
 	</row>
 </container>
 <container>
 	<row>
-		<column class="gutter txt-l pad-b-xl">
+		<column class="gutter pad-b-xl">
 			<container>
-				<row class="color-dusk-lightest">
-					<column class="gutter pad-t pad-b bg-tetons-gray-20 rounded-5">
-						<!-- {{{{raw-helper}}}} -->
-							<h1 class="display-medium">Let's start a tradition</h1>
-							<p class="body-default pad-b-sml">We hope you had a great time at {{{UNIT_NAME}}} and can't wait to hose you again. Book your return to {{{UNIT_ADDRESS_CITY}}} below and we'll see you soon!</p>
+				<row class="color-dusk-lightest" style="border-radius: 5px 5px 0px 0px">
+					<column class="gutter pad-t pad-b bg-tetons-gray-20 txt-center" style="border-radius: 5px 5px 0px 0px">
+							<h1 class="display-medium">Know the next great Vacasa home?</h1>
+							<p class="body-default pad-b">Introduce us—you can earn a $500 vacation credit.</p>
+							{{> primary-button-side url="https://www.vacasa.com/go/refer-a-homeowner?utm_source=transactional&utm_medium=email&utm_campaign=tx-guest-referral-program-post-stay&utm_content=primary-cta" label="Refer a Homeowner" }}
 							<a href="https://www.vacasa.com/unit/{{{ RESERVATION_UNIT_ID }}}?utm_source=transactional&utm_medium=email&utm_campaign=tx-rebooking-1?" target="_blank">
-								<img class="pad-b" infer="retina" width="592"
-									src="https://vacasa-units.imgix.net/{{{UNIT_PRIMARY_IMAGE_ID}}}.jpg?w=1280&mask=corners&corner-radius=10,10,10,10&ar=3.25:2&fit=crop&crop=focalpoint"
-									alt="{{{UNIT_NAME}}}, located in {{{UNIT_ADDRESS_CITY}}}."></img>
+								<img class="pad-b pad-t" infer="retina" width="592"
+									src="https://vacasa-email.imgix.net/homowner_rec_2021.png?w=640&q=90&fit=crop&crop=focalpoint&ar=3:1.25"
+									alt="Introduce us—you can earn a $500 vacation credit.*"></img>
 							</a>
-						<!-- {{{{/raw-helper}}}} -->
-						{{> primary-button-side }}
+					</column>
+				</row>
+				<row class="color-dusk-lightest" style="border-radius: 0px 0px 5px 5px">
+					<column class="gutter pad-t pad-b bg-color-key-west-yellow txt-l" style="border-radius: 0px 0px 5px 5px">
+							<h1 class="display-medium">How it works</h1>
+							<p class="body-default pad-b">1. Tell us about a homeowner who could use a hand managing their vacation rental. (Referring yourself is fair game, too.)</p>
+							<p class="body-default pad-b">2. 	
+								Once their home is listed on Vacasa.com, you’ll get $500 credit for your next stay with us.</p>
+							<p class="body-default pad-b">3. 	
+								We’ll share the love by giving the homeowner $500 off their first statement.</p>
 					</column>
 				</row>
 			</container>
