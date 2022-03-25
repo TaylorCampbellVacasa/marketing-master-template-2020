@@ -124,6 +124,27 @@
 	background: #F4F6F3 !important;
 	background-color: #F4F6F3 !important;
 }
+/*Hilton Head Sand*/
+.bg-hh-sand-100{
+	background: #E6E3D6 !important;
+	background-color: #E6E3D6 !important;
+}
+.bg-hh-sand-40{
+	background: #F5F4EF !important;
+	background-color: #F5F4EF !important;
+}
+.bg-hh-sand-30{
+	background: #F7F6F2 !important;
+	background-color: #F7F6F2 !important;
+}
+.bg-hh-sand-20{
+	background: #FDFDFC !important;
+	background-color: #FDFDFC !important;
+}
+.bg-hh-sand-10{
+	background: #FCFCFA !important;
+	background-color: #FCFCFA !important;
+}
 /*Laguna Sunset Orange*/
 .bg-laguna-orange-100{
 	background: #EF7831 !important;
@@ -165,4 +186,11 @@
 .bg-sedona-red-10{
 	background: #FBEAEB !important;
 	background-color: #FBEAEB !important;
+}
+/*Text Color Styles*/
+.text-is-white{
+	color: #FFFFFF !important;
+}
+.text-is-vacasa-blue{
+	color: #0E3348 !important;
 }

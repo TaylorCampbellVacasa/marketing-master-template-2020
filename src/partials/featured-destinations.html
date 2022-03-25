@@ -1,0 +1,25 @@
+<container>
+	{{#each destinations}}
+	<row>
+		<column class="gutter pad-b">
+			&nbsp;
+		</column>
+	</row>
+	<row>
+		<column class="gutter mbl-pad-sml">
+			<container>
+				<row>
+					<column class="pad-b-lrg pad-t-lrg gutter bg-hh-sand-40 rounded-5">
+						<a href="{{{ url }}}?{{{../utms}}}" target="_blank" class="unit-card-link">
+						   <img infer="retina" class="pad-b-sml" src="{{{image}}}?w=640&q=80&fit=crop&crop=focalpoint&ar=3:1.3" alt="{{{title}}}" width="640" style="display: block; width: 100%; max-width: 640px;" />
+						   <h3 class="display-small text-is-vacasa-blue">{{{title}}}</h3>
+						   <p class="body-small pad-t-sml">{{{description}}}</p>
+						   <p class="body-small pad-t-sml"><a href="{{{ url }}}?{{{../utms}}}" target="_blank">{{{cta}}}&nbsp;&#x203A;</a></p>
+						</a>
+					</column>
+				</row>
+			</container>
+		</column>
+	</row>
+	{{/each}}
+</container>
