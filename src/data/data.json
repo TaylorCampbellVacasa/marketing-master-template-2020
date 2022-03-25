@@ -1,34 +1,68 @@
-{
-    "main_url": "https://www.vacasa.com/top-markets/2022-best-places-to-buy-a-beach-house",
-    "utms": "utm_source=sendgrid&utm_medium=email&utm_campaign=best-places-to-buy-a-beach-house_2022-03-27",
-    "destinations": [
-        {
-            "title": "Gulf Shores, Alabama", 
-            "image": "https://vacasa-units.imgix.net/3007584.jpg", 
-            "description": "Boasting over 32 miles of sandy white beaches, Gulf Shores is a mecca of pure paradise on the Alabama coastline. A Gulf Shores vacation home or condo will cost around $400,000, but can yield over $50,000 of rental revenue per year. How's that for Southern hospitality?",
-            "url": "https://www.vacasa.com/usa/Alabama/Gulf-Shores/", 
-            "cta": "Explore Gulf Shores Vacation Rentals"
-        },
-        {
-            "title": "Corolla, North Carolina", 
-            "image": "https://vacasa-units.imgix.net/2492763.jpg", 
-            "description": "The popularity of the Outer Banks may have grown given its national exposure on a hit reality show, but those who have been traveling here for years have always admired the area's subtle charm and wide open spaces. The fact that a vacation rental property in Corolla could net you approximately $77,000 in rental revenue per year only shores up the investment.",
-            "url": "https://www.vacasa.com/usa/North-Carolina/Corolla/", 
-            "cta": "Explore Corolla Vacation Rentals"
-        },
-        {
-            "title": "Navarre Beach, Florida", 
-            "image": "https://vacasa-units.imgix.net/2573769.jpg", 
-            "description": "Here, relaxation is the name of the game, and visitors can mostly be found sunning and swimming in the area's emerald waters. If you're able to scoop up a spot on the sand in Navarre Beach, the median home sale price sits under $400,000, and could bring in an annual rental revenue of $43,202.",
-            "url": "https://www.vacasa.com/usa/Florida/Navarre-Beach/", 
-            "cta": "Explore Navarre Beach Vacation Rentals"
-        },
-        {
-            "title": "New Buffalo, Michigan", 
-            "image": "https://vacasa-units.imgix.net/3162930.jpg", 
-            "description": "The Gateway of Michigan may not immediately strike your fancy as a Best Place to Buy a Beach House, but take a closer look, and you'll find the beach-like lakeshore rivals any destination on our list. With a median home sale price of $569,873 your midwestern escape could earn you just over $58,000 in rental revenue a year. (All the more to adventure with.)",
-            "url": "https://www.vacasa.com/usa/Michigan/New-Buffalo/", 
-            "cta": "Explore New Buffalo Vacation Rentals"
-        }
-    ]
-}
+{"data": [
+  {
+    "recommendations": {
+      "trending_destinations_segment2": [
+          {
+            "active": true,
+            "active_unit_count": 205,
+            "city_id": "127",
+            "name": "Palm Springs",
+            "state_id": "5",
+            "url": "/usa/California/Palm-Springs/",
+            "image_url": null,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/155.jpg"
+          },
+          {
+            "active": true,
+            "active_unit_count": 34,
+            "city_id": "590",
+            "name": "Lake Arrowhead",
+            "state_id": "5",
+            "url": "/usa/California/Lake-Arrowhead/",
+            "image_url": null,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/3316.jpg"
+          },
+          {
+            "active": true,
+            "active_unit_count": 43,
+            "city_id": "464",
+            "name": "Idyllwild",
+            "state_id": "5",
+            "url": "/usa/California/Idyllwild/",
+            "image_url": null,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/2910.jpg"
+          },
+          {
+            "active": true,
+            "active_unit_count": 151,
+            "city_id": "206",
+            "name": "Mammoth Lakes",
+            "state_id": "5",
+            "url": "/usa/California/Mammoth-Lakes/",
+            "image_url": null,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/1265.jpg"
+          },
+          {
+            "destination_id": "729",
+            "country_id": "1",
+            "name": "Splash Resort - Panama City Beach",
+            "url": "/usa/Splash-Resort-Panama-City-Beach/",
+            "active": true,
+            "active_unit_count": 60,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/3134.jpg"
+          },
+          {
+            "active": true,
+            "active_unit_count": 1030,
+            "city_id": "810",
+            "name": "Gulf Shores",
+            "state_id": "1",
+            "url": "/usa/Alabama/Gulf-Shores/",
+            "image_url": null,
+            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/3188.jpg"
+          }
+        ]
+      },
+    "utms": "utm_campaign=peat-trending-destinations&utm_content=20211022&utm_campaignid=3928&utm_uuid=2913668c-330f-11ec-ab11-72064d5f13b1&utm_source=peat&utm_medium=email"
+    }
+  ]}

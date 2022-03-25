@@ -9,9 +9,11 @@
 <!-- inject-style src="src/CSS/colors.css" -->
 </head>
 <body>
-{{> hero }}
-{{> featured-destinations }}
-{{> secondary-cta }}
-{{> vacasa-footer-sg }}
+<!-- raw-helper -->{{#each data}}<!-- /raw-helper -->
+    {{> hero }}
+    {{> destinations }}
+    {{> secondary-cta }}
+    {{> vacasa-footer }}
+<!-- raw-helper -->{{/each}}<!-- /raw-helper -->
 </body>
 </heml>
