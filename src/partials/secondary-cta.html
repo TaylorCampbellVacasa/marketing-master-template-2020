@@ -7,15 +7,16 @@
 	<row>
 		<column class="gutter mbl-pad-sml">
 			<container>
-				<row style="border-radius: 5px 5px 0px 0px !important;">
+				<row class="bg-aspen-green-30" style="border-radius: 5px 5px 0px 0px !important;">
 					<column class="pad-t-lrg gutter bg-aspen-green-30 txt-center" style="border-radius: 5px 5px 0px 0px !important;">
 						   <h3 class="display-small text-is-vacasa-blue pad-b">So, where to?</h3>
-						   {{> primary-button-slug-dark-blue url="https://www.vacasa.com/?utm_content=where-to-btn" label="Explore Vacation Homes" }}
+						   {{> primary-button-slug-dark-blue }}
 					</column>
 				</row>
 				<row style="border-radius: 0px 0px 5px 5px !important;">
 					<column class="bg-aspen-green-30 txt-center" style="border-radius: 0px 0px 5px 5px !important;">
-						   <a href="https://www.vacasa.com/?{{{utms}}}&utm_content=where-to-image" target="_blank"><img class="pad-t" width="640" infer="retina" src="https://vacasa-units.imgix.net/3388942.jpg?w=640&fit=crop&crop&focalpoint&ar=3:1.125&corner-radius=0,0,5,5&mask=corners&fp-y=0.9" alt="An aerial photo of Daytona Beach, Florida" style="width: 100%; max-width: 640px;"></a>
+						  <!--{{{{raw-helper}}}}--> <a href="https://www.vacasa.com/?{{{utms}}}&utm_content=where-to-image" target="_blank"><img class="pad-t" width="640" infer="retina" src="https://vacasa-units.imgix.net/3388942.jpg?w=640&fit=crop&crop&focalpoint&ar=3:1.125&corner-radius=0,0,5,5&mask=corners&fp-y=0.9" alt="An aerial photo of Daytona Beach, Florida" style="width: 100%; max-width: 640px;"></a>
+						  <!--{{{{/raw-helper}}}}-->
 					</column>
 				</row>
 			</container>
